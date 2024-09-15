@@ -1,0 +1,791 @@
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Top Header with Contact Info */
+.top-header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #555;
+}
+
+.contact-info svg {
+    margin-right: 5px;
+}
+
+/* Main Header */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a {
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+header .logo span {
+    color: #fff;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ff0000;
+}
+
+.navigation ul li a:hover {
+    background-color: #cc0000;
+}
+
+/* Hero Section */
+.hero {
+    		 background-image: url(images/sldier.png);
+    background-repeat: no-repeat-y;
+    background-position: center;
+    color: #fff;
+    margin: 0 auto;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #cc0000;
+}
+
+/* Book Your Ride Section */
+.book-ride {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+.book-ride h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.book-ride p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.book-ride .cta-button {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+}
+
+/* Safety Section */
+.safety-hero {
+    background-image: url(images/safee.jpg);
+	  background-repeat: no-repeat-x;    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.safety-content {
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.safety-section {
+    background-color: #fff;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.video-item iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.pricing-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pricing-plan {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-plan h2 {
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.pricing-plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.pricing-plan ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Contact Form Section */
+.contact-form {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-form .container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input[type=text], 
+.contact-form input[type=email], 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form input[type=submit] {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-form input[type=submit]:hover {
+    background-color: #cc0000;
+}
+
+/* General Feature Box Styles */
+.feature-box {
+    background-color: #fff;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.feature-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.feature-box h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Extra Sections */
+.extra-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer .social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .features, .pricing-grid, .safety-content, .extra-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .safety-section, .pricing-plan {
+        width: 100%;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+        font-size: 1rem;
+    }
+}
+
+/* Burger Menu Styles */
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger-menu span {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin-bottom: 4px;
+    border-radius: 2px;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .burger-menu {
+        display: flex;
+    }
+
+    .navigation ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #000;
+    }
+
+    .navigation ul.open {
+        display: flex;
+    }
+
+    .navigation ul li {
+        margin: 10px 0;
+    }
+}
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modal-content input, .modal-content select, .modal-content button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.modal-content button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #555;
+}
+
+/* Close button positioned in top right */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Toggle text styling */
+.modal p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.modal p span {
+    color: #333;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    
+    background-color: red;
+    border-radius: 4px;
+}
+
+.navigation ul li a:hover {
+    background-color: darkred;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    margin: 100px auto;
+    width: 400px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Popup Modal for Success/Error Messages */
+.popup-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 9999;
+    padding: 20px;
+    text-align: center;
+}
+
+.popup-content p {
+    margin-bottom: 20px;
+}
+
+/* Success Style */
+.success {
+    border: 2px solid green;
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Error Style */
+.error {
+    border: 2px solid red;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.popup-modal button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.popup-modal button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Admin dashboard*/
+.admin-header {
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.admin-navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.admin-navigation ul li {
+    margin: 0 10px;
+}
+
+.admin-navigation ul li a {
+    color: white;
+    text-decoration: none;
+    background-color: #ff0000;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.admin-navigation ul li a:hover {
+    background-color: #0056b3;
+}
+
+.admin-welcome {
+    text-align: center;
+    margin: 50px;
+}
+
+.admin-actions {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.action-box {
+    background-color: #f8f9fa;
+    padding: 30px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.action-box h2 {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Table styles for user management */
+table {
+    width: 100%;
+    margin: 50px 0;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f8f9fa;
+}
+
+
+
+/*report*/
+.reports {
+    text-align: center;
+    padding: 20px;
+}
+
+.charts-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.chart-left, .chart-right {
+    width: 48%;
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 83%;
+    height: auto;
+}
+
+
+.view-contacts {
+    padding: 20px;
+    text-align: center;
+}
+
+.view-contacts h1 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f8f9fa;
+}
+
+
+
+
+
+.popup-modal {
+    display: block;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.popup-modal.success {
+    border-color: #4CAF50;
+    background-color: #e7f6e7;
+}
+
+.popup-modal.failure {
+    border-color: #f44336;
+    background-color: #f6e7e7;
+}
+
+.popup-modal p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#closePopup {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.booking-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .booking-form h1 {
+            text-align: center;
+            color: #333;
+        }
+        .booking-form label {
+            display: block;
+            margin: 15px 0 5px;
+            font-size: 16px;
+            color: #333;
+        }
+        .booking-form select, .booking-form input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .booking-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ff4d4d;
+            color: #fff;
+            font-size: 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .booking-form button:hover {
+            background-color: #e60000;
+        }
